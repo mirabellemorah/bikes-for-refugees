@@ -189,6 +189,26 @@ section {
 
 /* Article */
 
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px var(--grey-light);
+}
+
+article.content {
+   display: flex;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.articles_side {
+  display: flex;
+  gap: 2rem;
+}
+
 .article {
   margin-bottom: 1rem;
 }
