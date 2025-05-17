@@ -82,6 +82,11 @@ p {
   text-decoration: none;
 }
 
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--orange-dark);
+  text-decoration: underline;
+}
 
 /* Text styles */
 
